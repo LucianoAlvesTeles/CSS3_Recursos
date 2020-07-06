@@ -1,22 +1,32 @@
-#caixa{
+/*#caixa{
     width: 300px;
     height: 300px;
     background: #b9c941 ;
     padding: 50px;
-    /*
     -webkit-border-radius: 150px;
     border-radius: 150px;
     -moz-border-radius: 150px;
-    */
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; 
 }
-
 #caixa2{
     width: 300px;
     height: 300px;
     background: #b9c941 ;
-    /*border-radius: 150px;*/
-    
+    border-radius: 150px;
+}
+*/
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    /*background: url("../imagens/camera.png")*/
+    /*background: linear-gradient(red, green);*/
+    background: radial-gradient(red, green) ;
+}
+
+#caixa h1{
+   /* background: rgba(255, 255, 255, 0.5);*/
+
 }
