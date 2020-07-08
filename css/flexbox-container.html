@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        #conteudo{
+            background: #dcdcdc;
+            height: 600px;
+            display: flex;
+
+            /*
+            row/ row-reverse/ colunm/ colunm-reverse
+            */
+
+            flex-direction: row;
+
+            /*
+            nowrap / wrap / wrap-reverse
+            */
+
+            flex-wrap: nowrap;
+
+            /*
+            flex-start / flex-end / center / space - between / space-around
+            */
+
+            justify-content: space-around;
+
+            /*
+            stretch/ center / flex-start / flex-end / baseline 
+            */
+
+            align-items: center ;
+
+        }
+
+        .item{
+            width: 100px;
+            height: 100px;
+            background: white;
+            border: 1px solid gray;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Flexbox</h1>
+    <div id="conteudo">
+        <div class="item">01</div>
+        <div class="item">02</div>
+        <div class="item">03</div>
+        <div class="item">04</div>
+    </div>
+
+</body>
+
+</html>
